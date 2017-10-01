@@ -29,7 +29,7 @@ func parseShops(data: Data, entityType: String) -> ModelObjects {
             
             shops.add(modelObject: shop)
             
-            break
+            // break
         }
     } catch {
         print("Error parsing JSON")
